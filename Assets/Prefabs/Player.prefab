@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 260467080340364018}
   - component: {fileID: 260467080340364017}
   - component: {fileID: 260467080340364016}
-  - component: {fileID: 9056715001709141143}
+  - component: {fileID: 6458187637747023786}
   - component: {fileID: 4643047453384395913}
   - component: {fileID: 3403017175178660479}
   - component: {fileID: 1731491304925301806}
@@ -39,7 +39,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &260467080340364017
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -56,7 +56,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!212 &260467080340364016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -96,7 +96,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -873687977
-  m_SortingLayer: 4
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -672920114, guid: cf93b49e1fbc3364897d7881a72630f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -109,8 +109,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &9056715001709141143
-CapsuleCollider2D:
+--- !u!61 &6458187637747023786
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -122,9 +122,19 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018977165, y: -0.037953705}
-  m_Size: {x: 0.625885, y: 0.9240926}
-  m_Direction: 0
+  m_Offset: {x: -0.01700902, y: -0.057912946}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7388387, y: 0.8833349}
+  m_EdgeRadius: 0
 --- !u!50 &4643047453384395913
 Rigidbody2D:
   serializedVersion: 4
@@ -190,3 +200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 8
   jumpSpeed: 25
+  deathKick: {x: 10, y: 10}
+  attack: {fileID: 0}
+  attackSpawnPoint: {fileID: 0}
