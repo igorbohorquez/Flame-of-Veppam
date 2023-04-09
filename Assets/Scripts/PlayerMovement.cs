@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
 
     bool isAlive = true;
 
+    bool isSuperPowerActive = false;
+    int superPowerCounter = 0;
+
 
     void Start()
     {
@@ -39,8 +42,30 @@ public class PlayerMovement : MonoBehaviour
 
     void OnFire(InputValue value)
     {
-        if (!isAlive ) { return; }
-        Instantiate(attack, attackSpawnPoint.position, transform.rotation);
+        if (!isAlive) { return; }
+        if (isSuperPowerActive == true) {
+            StartCoroutine(ThreeShots());
+        } else {
+            Instantiate(attack, attackSpawnPoint.position, transform.rotation);
+        }
+    }
+
+    IEnumerator ThreeShots() {
+		while (true) {
+            Instantiate(attack, attackSpawnPoint.position, transform.rotation);
+            superPowerCounter++;
+            if (superPowerCounter == 3) {
+                superPowerCounter = 0;
+                yield break;
+            }
+			yield return new WaitForSeconds(0.150F);
+		}
+	}
+
+    public void ActivateSuperPower()
+    {
+        if (!isAlive) { return; }
+        isSuperPowerActive = true;
     }
 
     void OnMove(InputValue value)
