@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject attack;
     [SerializeField] Transform attackSpawnPoint;
 
+    [SerializeField] GameObject spikes;
+
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
     Animator myAnimator;
@@ -19,8 +21,10 @@ public class PlayerMovement : MonoBehaviour
 
     bool isAlive = true;
 
-    bool isSuperPowerActive = false;
-    int superPowerCounter = 0;
+    bool isThreeShotsSuperPowerActive = false;
+    int threeShotsSuperPowerCounter = 0;
+
+    bool isSpikesSuperPowerActive = false;
 
 
     void Start()
@@ -43,8 +47,10 @@ public class PlayerMovement : MonoBehaviour
     void OnFire(InputValue value)
     {
         if (!isAlive) { return; }
-        if (isSuperPowerActive == true) {
+        if (isThreeShotsSuperPowerActive == true) {
             StartCoroutine(ThreeShots());
+        } else if (isSpikesSuperPowerActive == true) {
+            Instantiate(spikes, new Vector3(attackSpawnPoint.position.x + 3f, attackSpawnPoint.position.y + 0.1f, attackSpawnPoint.position.z), transform.rotation);
         } else {
             Instantiate(attack, attackSpawnPoint.position, transform.rotation);
         }
@@ -53,20 +59,29 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator ThreeShots() {
 		while (true) {
             Instantiate(attack, attackSpawnPoint.position, transform.rotation);
-            superPowerCounter++;
-            if (superPowerCounter == 3) {
-                superPowerCounter = 0;
+            threeShotsSuperPowerCounter++;
+            if (threeShotsSuperPowerCounter == 3) {
+                threeShotsSuperPowerCounter = 0;
                 yield break;
             }
 			yield return new WaitForSeconds(0.150F);
 		}
 	}
 
-    public void ActivateSuperPower()
+    public void ActivateThreeShotsSuperPower()
     {
         if (!isAlive) { return; }
-        isSuperPowerActive = true;
+        isSpikesSuperPowerActive = false;
+        isThreeShotsSuperPowerActive = true;
     }
+
+    public void ActivateSpikesSuperPower()
+    {
+        if (!isAlive) { return; }
+        isThreeShotsSuperPowerActive = false;
+        isSpikesSuperPowerActive = true;
+    }
+
 
     void OnMove(InputValue value)
 

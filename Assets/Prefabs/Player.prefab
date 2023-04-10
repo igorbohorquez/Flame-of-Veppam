@@ -203,3 +203,4 @@ MonoBehaviour:
   deathKick: {x: 10, y: 10}
   attack: {fileID: 0}
   attackSpawnPoint: {fileID: 0}
+  spikes: {fileID: 8529335084966320111, guid: c20ef937127bf0efc8cb13ec5fbd30b3, type: 3}
