@@ -50,7 +50,11 @@ public class PlayerMovement : MonoBehaviour
         if (isThreeShotsSuperPowerActive == true) {
             StartCoroutine(ThreeShots());
         } else if (isSpikesSuperPowerActive == true) {
-            Instantiate(spikes, new Vector3(attackSpawnPoint.position.x + 3f, attackSpawnPoint.position.y + 0.1f, attackSpawnPoint.position.z), transform.rotation);
+            if (transform.localScale.x == 1) {
+                Instantiate(spikes, new Vector3(attackSpawnPoint.position.x + 3f, attackSpawnPoint.position.y + 0.1f, attackSpawnPoint.position.z), transform.rotation);
+            } else {
+                Instantiate(spikes, new Vector3(attackSpawnPoint.position.x - 3f, attackSpawnPoint.position.y + 0.1f, attackSpawnPoint.position.z), transform.rotation);
+            }
         } else {
             Instantiate(attack, attackSpawnPoint.position, transform.rotation);
         }
