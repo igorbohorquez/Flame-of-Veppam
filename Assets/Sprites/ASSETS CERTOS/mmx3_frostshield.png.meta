@@ -1,0 +1,2169 @@
+fileFormatVersion: 2
+guid: 6b271747aab8c8a48abe0309d817daa3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmx3_frostshield_0
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 522
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf782452dca98c7489ab9ba14d27fd24
+      internalID: 1660100677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 522
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c35a1cf99e3b8a4f954ac566357101e
+      internalID: 915016104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 501
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18788fa04e845a4a906c90ba49768e8
+      internalID: -138665341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 501
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9e409713913e442946c2cc34409f24
+      internalID: 1993206855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 501
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf092539fc580994fa208bb549ea3655
+      internalID: 929259516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 501
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aeea69146910f4bb8e08683f78a15a
+      internalID: -575702794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 479
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7a6d306d91c6a43b5f0d435c091c74
+      internalID: -946708342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 479
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d2c24af6f19ab4f9206085fba97b56
+      internalID: 124573091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 479
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9661fb07e85fdd749bc7d2eba5ce8003
+      internalID: 751843124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 478
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aa94b8a243f1c429b84a384a2de88c
+      internalID: -2081553282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 453
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727638d9e59e6674cace7bfd5e1e00aa
+      internalID: 1755714828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 454
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3eb13c1fca688248813ddbcd567970e
+      internalID: 890869248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 453
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7ff2159e1358b47831b1eebdc09fe7
+      internalID: -989626570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 455
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abfddf87834aaa4ab81d5dab3fecff7
+      internalID: 385705106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 455
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d2cede40eb5cd4eafbe39b89b35d77
+      internalID: -1886312900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_15
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 455
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b447f5fab6f041b3869adb72b7b24
+      internalID: 1810465384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 455
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54e8e65e3f982b49aa0275554a29b54
+      internalID: -486241580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 432
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce005f48f8544e34ea34b976e5a42abe
+      internalID: -1329795717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_18
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 432
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c31e549ae158b844b62c797a7df26d7
+      internalID: 175742448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 432
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3800c71c68906e342853af0547d470d6
+      internalID: 1150466967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 432
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89c99bae4a8269479ec0ed83715802a
+      internalID: 209603681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 400
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01925f7a64a73a4f9608edf8d734e6f
+      internalID: 456029018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 401
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79f4a66ddfb10c429a1d3352b668baa
+      internalID: 547209466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 400
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3578d247843b94b4b84e64baa1c5d968
+      internalID: -1888184446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_24
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 401
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8874dfabba2c248a75bdea24c2d2bc
+      internalID: -22908152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_25
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 401
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea82762efabde429dcb785c2db36c3
+      internalID: -1097522706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_26
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 401
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf5c83b8dfdcf7499012b40fa3e59f8
+      internalID: 1938801847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_27
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 369
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c415b562ce05641a4d05c80f82da97
+      internalID: -1593253348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 369
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a00be1171c61445bbefae705b66880
+      internalID: -1452480005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 369
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2d6e7a00858234e88fc480ac0a6867
+      internalID: -718406360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_30
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 344
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42fe81d38186454b8e9e63bc2478542
+      internalID: 1160917753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 345
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf0b7fe7d8c2f146bb5715150a4d1ae
+      internalID: 1484820852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_32
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 344
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d96282fc06f3d46a120c796f0627a0
+      internalID: 1499535895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_33
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 344
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe4451c25cb5d047b68905612e38a50
+      internalID: 576637578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_34
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 344
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54572e62d567c6446adeee908402fea1
+      internalID: 1544349898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 344
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f47ec19f0e07d4391477efb535e559
+      internalID: -595042613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_36
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 344
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46774db4ef070334ea37a03479e916fa
+      internalID: -1708987829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 344
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8530f6b0b47df47b400f9cd717db6a
+      internalID: 1153428072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_38
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 319
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0757c93c23878ae42aef75c5e40ed3a4
+      internalID: -1180390506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 319
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad6cd12e2234e14d8114e0cecc9e1e6
+      internalID: -1776417660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_40
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 319
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81ef97b14980a84484414c50f32f8a2
+      internalID: -649776151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_41
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 329
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63313ba500e2e1b4da86b9c9a8352bec
+      internalID: -227874683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_42
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 319
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41ca2c4dcf146c4f942666a5d3e4e48
+      internalID: -1600425035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_43
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 319
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30fd552a756dd04d9d98a63f61fd389
+      internalID: 154088594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 278
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746d9082669a32c4e99ac9136ad4297d
+      internalID: 2001989821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_45
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 279
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ff2a14de2b98e40b9f44344fa3ae02
+      internalID: 1539090575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_46
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 278
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b701538a522e114d9863cb60ce335ea
+      internalID: -68976256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_47
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 278
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568cb02440c47414faa959b4737cc3a4
+      internalID: 1608947393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_48
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 278
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c4051460469604da4294d8b5f9c3aa
+      internalID: 1978953503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 278
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce724171b679734eb60a7c6e5f7fd3d
+      internalID: 1136807875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_50
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 278
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e02a7af598a0544a44d01a4d2fc38c
+      internalID: -512661784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 176
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3790bfced88a346815f333dc60e0be
+      internalID: 237516782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_52
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 237
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63505208f107b614fa99c79e62a419c1
+      internalID: 414633276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_53
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 238
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a232005c3815ca479ca40ab7004308d
+      internalID: 349098708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_54
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 237
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a8a98d6bca0b14e9babf5b0e7fb396
+      internalID: -1704669786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 211
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8929d397744aaf443aae5a565c60e78b
+      internalID: -131958187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_56
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 215
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f57304e51393264b961feede5f0682d
+      internalID: 2130231276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_57
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 211
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af85858c355c3e149ad000783d5a80a7
+      internalID: 863340967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_58
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 207
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194e011a3720aea469eaef86a1792291
+      internalID: -791358630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_59
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 206
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4379c2a8b114a5444951696ccc756e6b
+      internalID: 1341329975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_60
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 206
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d6f5786dc5afb4ba16723b408f6c36
+      internalID: -1968201781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_61
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 189
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36205c87407b50845862ed43d79a7ee5
+      internalID: -220387001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 182
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278a8e0ab1f36a34f95e1f2755ae942f
+      internalID: -1387294257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_63
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 199
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca66ba6fdfeccd41b7d0bad417f0a5b
+      internalID: -1646476996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_64
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 199
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad04ce46722eef4d9aa10aadc5cd1a1
+      internalID: 2112653256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_65
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 199
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ef8090f72d0054aadc8a41a9b1d3af
+      internalID: 65924421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_66
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 187
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7c7a1e7f8eef14d8b2223cebf05236
+      internalID: -1410652563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_67
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 187
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afa9f718692d2b45acf4f4bc4a2967e
+      internalID: 918805058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_68
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 189
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c90135ae8868d49a9a4d983b19134e
+      internalID: 1128442981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_69
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 185
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921091b2d68bb6f45b7caa14ad960e1d
+      internalID: -945724141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_70
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 189
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8527847a7db5b0042b1e0133e063ffc7
+      internalID: 1158042387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_71
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 183
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330c7bc24dcf5e742b5ee5bd1085c6f9
+      internalID: 17625680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_72
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 153
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2b7246d12fd6847aee8f2b254d4134
+      internalID: 2108667319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_73
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 153
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8584a9e02939e4745bf9c8b60fadb7ac
+      internalID: 458720795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_74
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051883b256011204da124e418e932c62
+      internalID: -1357328956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_75
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 153
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0816124c81cdd824f98df9466a55a344
+      internalID: -1528115235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_76
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 151
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8496337da827b4287d2818847048d9
+      internalID: -1473463514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_77
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 151
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730d35c2ad5a93d4cb462673032712ef
+      internalID: -1948682147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_78
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 152
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617a8250378a6564f9c162caa37a4efa
+      internalID: -457846364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_79
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 118
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e8f235a99b424095617a84b4dd7a7
+      internalID: -1510701400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_80
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 114
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e4440a8e73d1a43b4596773821c324
+      internalID: -228730897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_81
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 110
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8e7910185336e42946c33a62174d28
+      internalID: 1916203407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_82
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 84
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544790cfee0d2654f89f4fad506e3bbc
+      internalID: -1624377799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_83
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 84
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3929253d6bef7664882f1a587512fedb
+      internalID: 990069078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_84
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 84
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426d122bebbc2084182290aebd43b85c
+      internalID: -1237926692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_85
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 84
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde8585fd14d8e429ac8c40fa58b621
+      internalID: 1456835526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_86
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 84
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4efba5b63a43094d8449595864418cc
+      internalID: -1628239871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_87
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 40
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963fcb4647a12de4689a36eddc983682
+      internalID: 1359896162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_88
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 36
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646a220f09b403d478d0920d79a84a09
+      internalID: 1789576474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_89
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 30
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bfe327ad7da6d4d88446c79454f519
+      internalID: -880803275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_90
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 30
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1243eb9f818c5848857155d369d3d04
+      internalID: 1532619422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_91
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0a0ada3d40116478f045e14f796a57
+      internalID: -2131086624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx3_frostshield_92
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 5
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94503119b9de87a40bb2fd447f2eadd1
+      internalID: -641232935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mmx3_frostshield_0: 1660100677
+      mmx3_frostshield_1: 915016104
+      mmx3_frostshield_10: 1755714828
+      mmx3_frostshield_11: 890869248
+      mmx3_frostshield_12: -989626570
+      mmx3_frostshield_13: 385705106
+      mmx3_frostshield_14: -1886312900
+      mmx3_frostshield_15: 1810465384
+      mmx3_frostshield_16: -486241580
+      mmx3_frostshield_17: -1329795717
+      mmx3_frostshield_18: 175742448
+      mmx3_frostshield_19: 1150466967
+      mmx3_frostshield_2: -138665341
+      mmx3_frostshield_20: 209603681
+      mmx3_frostshield_21: 456029018
+      mmx3_frostshield_22: 547209466
+      mmx3_frostshield_23: -1888184446
+      mmx3_frostshield_24: -22908152
+      mmx3_frostshield_25: -1097522706
+      mmx3_frostshield_26: 1938801847
+      mmx3_frostshield_27: -1593253348
+      mmx3_frostshield_28: -1452480005
+      mmx3_frostshield_29: -718406360
+      mmx3_frostshield_3: 1993206855
+      mmx3_frostshield_30: 1160917753
+      mmx3_frostshield_31: 1484820852
+      mmx3_frostshield_32: 1499535895
+      mmx3_frostshield_33: 576637578
+      mmx3_frostshield_34: 1544349898
+      mmx3_frostshield_35: -595042613
+      mmx3_frostshield_36: -1708987829
+      mmx3_frostshield_37: 1153428072
+      mmx3_frostshield_38: -1180390506
+      mmx3_frostshield_39: -1776417660
+      mmx3_frostshield_4: 929259516
+      mmx3_frostshield_40: -649776151
+      mmx3_frostshield_41: -227874683
+      mmx3_frostshield_42: -1600425035
+      mmx3_frostshield_43: 154088594
+      mmx3_frostshield_44: 2001989821
+      mmx3_frostshield_45: 1539090575
+      mmx3_frostshield_46: -68976256
+      mmx3_frostshield_47: 1608947393
+      mmx3_frostshield_48: 1978953503
+      mmx3_frostshield_49: 1136807875
+      mmx3_frostshield_5: -575702794
+      mmx3_frostshield_50: -512661784
+      mmx3_frostshield_51: 237516782
+      mmx3_frostshield_52: 414633276
+      mmx3_frostshield_53: 349098708
+      mmx3_frostshield_54: -1704669786
+      mmx3_frostshield_55: -131958187
+      mmx3_frostshield_56: 2130231276
+      mmx3_frostshield_57: 863340967
+      mmx3_frostshield_58: -791358630
+      mmx3_frostshield_59: 1341329975
+      mmx3_frostshield_6: -946708342
+      mmx3_frostshield_60: -1968201781
+      mmx3_frostshield_61: -220387001
+      mmx3_frostshield_62: -1387294257
+      mmx3_frostshield_63: -1646476996
+      mmx3_frostshield_64: 2112653256
+      mmx3_frostshield_65: 65924421
+      mmx3_frostshield_66: -1410652563
+      mmx3_frostshield_67: 918805058
+      mmx3_frostshield_68: 1128442981
+      mmx3_frostshield_69: -945724141
+      mmx3_frostshield_7: 124573091
+      mmx3_frostshield_70: 1158042387
+      mmx3_frostshield_71: 17625680
+      mmx3_frostshield_72: 2108667319
+      mmx3_frostshield_73: 458720795
+      mmx3_frostshield_74: -1357328956
+      mmx3_frostshield_75: -1528115235
+      mmx3_frostshield_76: -1473463514
+      mmx3_frostshield_77: -1948682147
+      mmx3_frostshield_78: -457846364
+      mmx3_frostshield_79: -1510701400
+      mmx3_frostshield_8: 751843124
+      mmx3_frostshield_80: -228730897
+      mmx3_frostshield_81: 1916203407
+      mmx3_frostshield_82: -1624377799
+      mmx3_frostshield_83: 990069078
+      mmx3_frostshield_84: -1237926692
+      mmx3_frostshield_85: 1456835526
+      mmx3_frostshield_86: -1628239871
+      mmx3_frostshield_87: 1359896162
+      mmx3_frostshield_88: 1789576474
+      mmx3_frostshield_89: -880803275
+      mmx3_frostshield_9: -2081553282
+      mmx3_frostshield_90: 1532619422
+      mmx3_frostshield_91: -2131086624
+      mmx3_frostshield_92: -641232935
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

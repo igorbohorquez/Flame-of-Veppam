@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: feb0bd24838705e41a715569c5f05b80
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cec0e4ac80ecd446af7ae4f4bba032c
+      internalID: -788378211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5438b4add5e9c5c4e93b61696028c35a
+      internalID: -1065086836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f073ec0d0d3e14bb265790b409a6c4
+      internalID: -718365175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ffde9e0bf64704bbc7a8153a6e14f5
+      internalID: -1016540065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcfaf8001a9670459d4c9a8b5c2f64c
+      internalID: -1915458429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cbffab5f71ec840a2a02296002b194
+      internalID: 646360729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18af9e3e923c62498b161fae770bf28
+      internalID: -1464812022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e1411b49f08894bb1b89ca7ded6fbd
+      internalID: 499670911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ea6499a72294c44b3a481faeb58267
+      internalID: 1546061017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e225c101b139e74ba22d42c800c8aff
+      internalID: 608802329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67accc832cdf3344bd4e168b43e98fa
+      internalID: -1772482603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_11
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d172a3eb41abb448e4c6240172f5e6
+      internalID: 135137776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f368ea9387a7c1946b4d11c99244d3d0
+      internalID: -1858745716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_13
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082fa49bc94eab24691a442957607295
+      internalID: -1815486521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_14
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabe0e5fd7827da40b5b1cb1be56a803
+      internalID: 1794956629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_15
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b20ed846e837dc409afb795babcf3ba
+      internalID: -1290478999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8595537c3f03d334594a1d42928c3f0b
+      internalID: 2144314491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_17
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a67dde65a49b94e9b3de55a0bab4fb
+      internalID: 1044678967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2804aeca6f96fa045a8c3fbc7c230e8a
+      internalID: 1654710594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e23e709b8a36b47bf46ed6cf800f79
+      internalID: -1208084978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac963a76da716c468443e216cf6a878
+      internalID: 412056636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a891a279dd7ff2b40bf9faab21c8d3ec
+      internalID: 1294325653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948b1b64289c03c4c9f97e5dca4dfcc0
+      internalID: 1737420359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 62
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb31885623e4108499ae1f0e083ddd81
+      internalID: -939886215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ebb826b2e4e5d41ba5015a69fb0a72
+      internalID: 1087746751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_25
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f55b702e5efea4a88214eef2e85936
+      internalID: -302077568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3525779d2420148b56b15515fcd77a
+      internalID: 2081332521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_27
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b1b0be2bd9aaa4abbe1c52dfd5071a
+      internalID: -1861390656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7012277cc4ecb7f4c88fc979cf3abb05
+      internalID: -103633401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de03062e1eb012d4f9de7777ba42ce7e
+      internalID: -91483712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d18c604bc05da4bb17b738fa22705b
+      internalID: 2144346096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2ddadae3e17ad4590fd04ddca89f58
+      internalID: -2037379508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f5c682c7f9fc04b806aeb01323d23f
+      internalID: -244743411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_33
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f993aabbc94084484756629c34780c
+      internalID: -1129816776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_34
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68947dad97b1f13429d98b7ea4e608fa
+      internalID: -752005297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_35
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b0c9180bb3f034fa65a412ee98f243
+      internalID: 1256611884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_36
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc869373b6f45e40af433ea13445367
+      internalID: -818022723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_37
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65306a6ded04d1e40a8ff7c5567f11fc
+      internalID: -419670843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_38
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beb19c368924db409778621a38c7891
+      internalID: -183195752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_39
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5045784d43eebc43a5bb0b99d76576d
+      internalID: 211687017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_40
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff65ae8a67ce841885c4fcdbe9318f
+      internalID: 167447978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_41
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084054f93f3d1db4897695114028aa57
+      internalID: 535257863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_42
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9b476eb07c58d489b7a280ce737362
+      internalID: -1131986841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_43
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bea6bfe9e8b18745985b12f16453612
+      internalID: 1441264753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_44
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0fe1a7aed7ae942b9aae542de851c9
+      internalID: -45750250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_45
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cb572b0ed71724c9d1b15bfe8c2a86
+      internalID: -1901975312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Srpitesheet Bayle Idle (1)_46
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 6
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4be4212e50c3a41bb20fbcdd667a06
+      internalID: -111951421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Srpitesheet Bayle Idle (1)_0: -788378211
+      Srpitesheet Bayle Idle (1)_1: -1065086836
+      Srpitesheet Bayle Idle (1)_10: -1772482603
+      Srpitesheet Bayle Idle (1)_11: 135137776
+      Srpitesheet Bayle Idle (1)_12: -1858745716
+      Srpitesheet Bayle Idle (1)_13: -1815486521
+      Srpitesheet Bayle Idle (1)_14: 1794956629
+      Srpitesheet Bayle Idle (1)_15: -1290478999
+      Srpitesheet Bayle Idle (1)_16: 2144314491
+      Srpitesheet Bayle Idle (1)_17: 1044678967
+      Srpitesheet Bayle Idle (1)_18: 1654710594
+      Srpitesheet Bayle Idle (1)_19: -1208084978
+      Srpitesheet Bayle Idle (1)_2: -718365175
+      Srpitesheet Bayle Idle (1)_20: 412056636
+      Srpitesheet Bayle Idle (1)_21: 1294325653
+      Srpitesheet Bayle Idle (1)_22: 1737420359
+      Srpitesheet Bayle Idle (1)_23: -939886215
+      Srpitesheet Bayle Idle (1)_24: 1087746751
+      Srpitesheet Bayle Idle (1)_25: -302077568
+      Srpitesheet Bayle Idle (1)_26: 2081332521
+      Srpitesheet Bayle Idle (1)_27: -1861390656
+      Srpitesheet Bayle Idle (1)_28: -103633401
+      Srpitesheet Bayle Idle (1)_29: -91483712
+      Srpitesheet Bayle Idle (1)_3: -1016540065
+      Srpitesheet Bayle Idle (1)_30: 2144346096
+      Srpitesheet Bayle Idle (1)_31: -2037379508
+      Srpitesheet Bayle Idle (1)_32: -244743411
+      Srpitesheet Bayle Idle (1)_33: -1129816776
+      Srpitesheet Bayle Idle (1)_34: -752005297
+      Srpitesheet Bayle Idle (1)_35: 1256611884
+      Srpitesheet Bayle Idle (1)_36: -818022723
+      Srpitesheet Bayle Idle (1)_37: -419670843
+      Srpitesheet Bayle Idle (1)_38: -183195752
+      Srpitesheet Bayle Idle (1)_39: 211687017
+      Srpitesheet Bayle Idle (1)_4: -1915458429
+      Srpitesheet Bayle Idle (1)_40: 167447978
+      Srpitesheet Bayle Idle (1)_41: 535257863
+      Srpitesheet Bayle Idle (1)_42: -1131986841
+      Srpitesheet Bayle Idle (1)_43: 1441264753
+      Srpitesheet Bayle Idle (1)_44: -45750250
+      Srpitesheet Bayle Idle (1)_45: -1901975312
+      Srpitesheet Bayle Idle (1)_46: -111951421
+      Srpitesheet Bayle Idle (1)_5: 646360729
+      Srpitesheet Bayle Idle (1)_6: -1464812022
+      Srpitesheet Bayle Idle (1)_7: 499670911
+      Srpitesheet Bayle Idle (1)_8: 1546061017
+      Srpitesheet Bayle Idle (1)_9: 608802329
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
