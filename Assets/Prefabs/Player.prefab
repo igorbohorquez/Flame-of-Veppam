@@ -204,3 +204,4 @@ MonoBehaviour:
   attack: {fileID: 0}
   attackSpawnPoint: {fileID: 0}
   spikes: {fileID: 8529335084966320111, guid: c20ef937127bf0efc8cb13ec5fbd30b3, type: 3}
+  bigAttack: {fileID: 5053141591524029080, guid: 1c7a3649ff3b4ab92b4c909d98adf26a, type: 3}
