@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform attackSpawnPoint;
 
     [SerializeField] GameObject spikes;
+    [SerializeField] GameObject bigAttack;
 
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
@@ -25,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     int threeShotsSuperPowerCounter = 0;
 
     bool isSpikesSuperPowerActive = false;
+
+    bool isBigShotSuperPowerActive = false;
 
 
     void Start()
@@ -51,9 +54,15 @@ public class PlayerMovement : MonoBehaviour
             StartCoroutine(ThreeShots());
         } else if (isSpikesSuperPowerActive == true) {
             if (transform.localScale.x == 1) {
-                Instantiate(spikes, new Vector3(attackSpawnPoint.position.x + 3f, attackSpawnPoint.position.y + 0.1f, attackSpawnPoint.position.z), transform.rotation);
+                Instantiate(spikes, new Vector3(attackSpawnPoint.position.x + 3f, attackSpawnPoint.position.y + 1.5f, attackSpawnPoint.position.z), transform.rotation);
             } else {
-                Instantiate(spikes, new Vector3(attackSpawnPoint.position.x - 3f, attackSpawnPoint.position.y + 0.1f, attackSpawnPoint.position.z), transform.rotation);
+                Instantiate(spikes, new Vector3(attackSpawnPoint.position.x - 3f, attackSpawnPoint.position.y + 1.5f, attackSpawnPoint.position.z), transform.rotation);
+            }
+        } else if (isBigShotSuperPowerActive == true) {
+            if (transform.localScale.x == 1) {
+                Instantiate(bigAttack, new Vector3(attackSpawnPoint.position.x + 1.5f, attackSpawnPoint.position.y + 1f, attackSpawnPoint.position.z), transform.rotation);
+            } else {
+                Instantiate(bigAttack, new Vector3(attackSpawnPoint.position.x - 1.5f, attackSpawnPoint.position.y + 1f, attackSpawnPoint.position.z), Quaternion.Euler(0f, 180f, 0f));
             }
         } else {
             Instantiate(attack, attackSpawnPoint.position, transform.rotation);
@@ -76,6 +85,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
         isSpikesSuperPowerActive = false;
+        isBigShotSuperPowerActive = false;
         isThreeShotsSuperPowerActive = true;
     }
 
@@ -83,9 +93,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!isAlive) { return; }
         isThreeShotsSuperPowerActive = false;
+        isBigShotSuperPowerActive = false;
         isSpikesSuperPowerActive = true;
     }
 
+    public void ActivateBigShotSuperPower()
+    {
+        if (!isAlive) { return; }
+        isThreeShotsSuperPowerActive = false;
+        isSpikesSuperPowerActive = false;
+        isBigShotSuperPowerActive = true;
+    }
 
     void OnMove(InputValue value)
 
