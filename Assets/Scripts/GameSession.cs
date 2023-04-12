@@ -15,13 +15,9 @@ public class GameSession : MonoBehaviour
     void Awake()
     {
         int numGameSessions = FindObjectsOfType<GameSession>().Length;
-        if (numGameSessions > 1)
-        {
+        if (numGameSessions > 1) {
             Destroy(gameObject);
-        }
-
-        else
-        {
+        } else {
             DontDestroyOnLoad(gameObject);
         }
     }
@@ -34,14 +30,9 @@ public class GameSession : MonoBehaviour
     
     public void ProcessPlayerDeath()
     {
-        
-        if (playerLives > 1)
-        {
+        if (playerLives > 1) {
             TakeLife();
-        }
-
-        else
-        {
+        } else {
             ResetGameSession();
         }
     }
@@ -61,11 +52,22 @@ public class GameSession : MonoBehaviour
     
     void TakeLife()
     {
-        
         playerLives--;
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex);
+        // int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        // SceneManager.LoadScene(currentSceneIndex);
         livesText.text = playerLives.ToString();
-       
+    }
+
+    public void IncreaseLife()
+    {
+        if (playerLives < 3) {
+            playerLives++;
+            livesText.text = playerLives.ToString();
+        }
+    }
+
+    public int getCurrentLife()
+    {
+        return playerLives;
     }
 }

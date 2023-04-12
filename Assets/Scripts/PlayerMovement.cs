@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     float gravityScaleAtStart;
 
     bool isAlive = true;
+    bool isInvulnerable = false;
 
     bool isThreeShotsSuperPowerActive = false;
     int threeShotsSuperPowerCounter = 0;
@@ -122,8 +123,7 @@ public class PlayerMovement : MonoBehaviour
         if (!isAlive) { return; }
         if (!myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
 
-        if (value.isPressed)
-        {
+        if (value.isPressed) {
             myRigidbody.velocity += new Vector2(0f, jumpSpeed);
         }
     }
@@ -141,21 +141,31 @@ public class PlayerMovement : MonoBehaviour
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
 
-        if (playerHasHorizontalSpeed)
-        {
+        if (playerHasHorizontalSpeed) {
             transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x), 1f);
         }
     }
 
     void Die()
     {
-        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies", "Hazards")))
-        {
-            isAlive = false;
-            myAnimator.SetTrigger("Dying");
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies", "Hazards")) && isInvulnerable == false) {
+            BeInvulnerable();
+            // isAlive = false;
+            // myAnimator.SetTrigger("Dying");
             myRigidbody.velocity = deathKick;
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
 
+    IEnumerator InvulnerabilityTime()
+    {
+        yield return new WaitForSeconds(1.5F);
+        isInvulnerable = false;
+    }
+
+    void BeInvulnerable()
+    {
+        isInvulnerable = true;
+        StartCoroutine(InvulnerabilityTime());
+    }
 }
